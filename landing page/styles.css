@@ -1,0 +1,154 @@
+/* Custom styles for Guest House landing page */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+#home {
+  padding: 10rem 0;
+  background-color: #343a40;
+  background: url('/image/ayodhya.webp') no-repeat center center/cover;
+}
+
+#home h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+#home p {
+  font-size: 1.5rem;
+}
+
+.btn-outline-light {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #343a40;
+}
+
+#about {
+  padding: 6rem 0;
+}
+
+#about h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+#rooms {
+  padding: 6rem 0;
+}
+
+#rooms h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+#contact {
+  padding: 6rem 0;
+}
+
+#contact h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.form-control-lg {
+  border-color: #ced4da;
+  border-radius: 0;
+}
+
+.form-control-lg:focus {
+  border-color: #343a40;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-primary:hover {
+  background-color: #23272b;
+  border-color: #23272b;
+}
+
+footer {
+  padding: 4rem 0;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer a:hover {
+  color: #fff;
+}
+.bg-multicolor {
+  background-color: #f7f7f7; /* Light background color */
+  border-left: 8px solid #f44336; /* Red left border */
+  border-top: 8px solid #ff9800; /* Orange top border */
+  border-right: 8px solid #4caf50; /* Green right border */
+  border-bottom: 8px solid #2196f3; /* Blue bottom border */
+  padding: 20px;
+}
+/* Custom CSS */
+.icon-coin {
+  display: inline-block;
+  margin-left: 10px; /* Adjust margin as needed */
+  animation: rotateCoin 3s infinite linear;
+}
+
+@keyframes rotateCoin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Optional: Adjust size and color of the coin icon */
+.icon-coin i {
+  font-size: 1.5rem; /* Adjust size as needed */
+  color: #ffd700; /* Adjust color as needed */
+}
